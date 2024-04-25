@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+body {
+    background-color: rgb(30, 54, 81);
+
+}
+
+table {
+
+    color: white;
+
+    font-weight: 300;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: go;
+    position: relative;
+    top: 100px;
+}
+
+th,
+td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: rgb(255, 255, 255)1);
+    height: 60px;
+    text-align: center;
+    width: 400px;
+    font-size: 13px;
+}
+
+
+
+.semantic {
+    text-align: center;
+}
+
+thead .blank-td {
+    border: 0;
+}
+
+thead tr th {
+    background-color: rgb(24, 47, 77);
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: rgb(21, 50, 87);
+    position: fixed;
+    width: 100%;
+}
+
+ul li {
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(203, 223, 250);
+    padding: 20px;
+
+}
