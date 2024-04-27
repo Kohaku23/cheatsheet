@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Montserrat";
+
 }
 
 body {
@@ -13,11 +14,9 @@ body {
 table {
 
     color: white;
-
     font-weight: 300;
     border-collapse: collapse;
     margin: 0 auto;
-    background-color: go;
     position: relative;
     top: 100px;
 }
@@ -28,15 +27,13 @@ td {
     color: rgb(255, 255, 255)1);
     height: 60px;
     text-align: center;
-    width: 400px;
+    width: 300px;
     font-size: 13px;
+    line-height: 1.5;
+    padding: 20px;
 }
 
 
-
-.semantic {
-    text-align: center;
-}
 
 thead .blank-td {
     border: 0;
@@ -57,12 +54,25 @@ nav {
     background-color: rgb(21, 50, 87);
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 ul li {
-    text-decoration: none;
     display: inline-block;
     color: rgb(203, 223, 250);
     padding: 20px;
+    margin-left: 30px;
+    font-size: 16px;
+    font-family: "Helvetica";
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li:active {
+
+    color: rgb(39, 76, 117);
 
 }
