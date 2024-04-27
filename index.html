@@ -12,63 +12,152 @@
     <header>
         <nav>
             <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>REACT.JS</li>
+                <a href="">
+                    <li>HTML</li>
+                </a>
+                <a href="">
+                    <li>CSS</li>
+                </a>
+                <a href="">
+                    <li></li>
+                </a>
             </ul>
         </nav>
     </header>
-    <div class="table-container">
-        <table>
-            <thead>
-                <tr>
-                    <td class="blank-td"></td>
-                    <th>Tag</th>
-                    <th>Name</th>
-                    <th>Description</th>
-                </tr>
-            </thead>
+    <main>
 
-            <tbody id="red">
-                <tr>
-                    <th class="semantic" rowspan="7">Table (Semantic)</th>
-                </tr>
-                <tr>
-                    <th><span>&lt;table&gt;</span></th>
-                    <td>Table</td>
-                    <td>The wrapper element for all HTML tables.</td>
-                </tr>
-                <tr>
-                    <th><span>&lt;thead&gt;</span></th>
-                    <td>Table Head</td>
-                    <td>The set of rows defining the column headers in a table.</td>
-                </tr>
-                <tr>
-                    <th><span>&lt;tbody&gt;</span></th>
-                    <td>Table Body</td>
-                    <td>The set of rows containing actual table data.</td>
-                </tr>
-                <tr>
-                    <th><span>&lt;tr&gt;</span></th>
-                    <td>Table Row</td>
-                    <td>The table row container.</td>
-                </tr>
-                <tr>
-                    <th><span>&lt;td&gt;</span></th>
-                    <td>Table Data</td>
-                    <td>The Table row container</td>
-                </tr>
-                <tr>
-                    <th><span>&lt;tfoot&gt;</span></th>
-                    <td>Table Foot</td>
-                    <td>The set of rows defining the footer in a table.</td>
-                </tr>
-            </tbody>
-            <tfoot>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <td class="blank-td"></td>
+                        <th>Tag</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
 
-            </tfoot>
-        </table>
-    </div>
+                <tbody id="red">
+
+                    <!-- Semantic -->
+                    <tr>
+                        <th rowspan="11">Semantic</th>
+                    </tr>
+                    <tr>
+                        <td><span>&lt;header&gt;</span></td>
+                        <td>Header</td>
+                        <td>Defines introductory content or navigational links for a document or section.</td>
+                    </tr>
+                    <tr>
+                        <td><span>&lt;nav&gt;</span></td>
+                        <td> Navigation</td>
+                        <td>Contains navigation links, typically used for menus.</td>
+                    </tr>
+                    <tr>
+                        <td><span>&lt;main&gt;</span></td>
+                        <td>Main</td>
+                        <td>Represents the primary content area of a webpage.</td>
+                    </tr>
+                    <tr>
+                        <td><span>&lt;section&gt;</span></td>
+                        <td>Section</td>
+                        <td>Groups related content together for better organization.</td>
+                    </tr>
+                    <tr>
+                        <td><span>&lt;article&gt;</span></td>
+                        <td>Article</td>
+                        <td>Wraps standalone content like blog posts or articles.</td>
+                    </tr>
+                    <tr>
+                        <td><span>&lt;aside&gt;</span></td>
+                        <td>Aside</td>
+                        <td>Contains supplementary content, like sidebars.</td>
+                    </tr>
+
+                    <tr>
+                        <td><span>&lt;footer&gt;</span></td>
+                        <td>Footer</td>
+                        <td> Provides a footer section at the bottom of a webpage.</td>
+                    </tr>
+
+                    <tr>
+                        <td><span>&lt;figure&gt;</span></td>
+                        <td>Figure</td>
+                        <td>Wraps media content like images or videos.</td>
+                    </tr>
+
+                    <tr>
+                        <td><span>&lt;figcaption&gt;</span></td>
+                        <td>Figcaption</td>
+                        <td>Provides captions for media content within &lt;figure&gt;.</td>
+                    </tr>
+
+                    <tr>
+                        <td><span>&lt;time&gt;</span></td>
+                        <td>Time</td>
+                        <td>Marks dates, times, or durations for semantic meaning.</td>
+                    </tr>
+
+                    <!-- Non - Semantic-->
+
+                    <tr>
+                        <th rowspan="3">Non-Semantic</th>
+                    </tr>
+                    <tr>
+                        <td><span>&lt;div&gt;</span></td>
+                        <td>Division</td>
+                        <td>A generic container for grouping and styling elements without conveying specific meaning.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span>&lt;span&gt;</span></td>
+                        <td>Span</td>
+                        <td>Similar to &lt;div&gt;, but used for inline elements and text styling.</td>
+                    </tr>
+
+                    <!--- Table-->
+
+                    <tr>
+                        <th rowspan="7">Table</th>
+                    </tr>
+                    <tr>
+                        <td><span>&lt;table&gt;</span></td>
+                        <td>Table</td>
+                        <td>The wrapper element for all HTML tables.</td>
+                    </tr>
+                    <tr>
+                        <td><span>&lt;thead&gt;</span></td>
+                        <td>Table Head</td>
+                        <td>The set of rows defining the column headers in a table.</td>
+                    </tr>
+                    <tr>
+                        <td><span>&lt;tbody&gt;</span></td>
+                        <td>Table Body</td>
+                        <td>The set of rows containing actual table data.</td>
+                    </tr>
+                    <tr>
+                        <td><span>&lt;tr&gt;</span></td>
+                        <td>Table Row</td>
+                        <td>The table row container.</td>
+                    </tr>
+                    <tr>
+                        <td><span>&lt;td&gt;</span></td>
+                        <td>Table Data</td>
+                        <td>The Table row container</td>
+                    </tr>
+                    <tr>
+                        <td><span>&lt;tfoot&gt;</span></td>
+                        <td>Table Foot</td>
+                        <td>The set of rows defining the footer in a table.</td>
+                    </tr>
+
+                </tbody>
+                <tfoot>
+
+                </tfoot>
+            </table>
+        </div>
+    </main>
 </body>
 
 </html>
